@@ -1,8 +1,9 @@
 [tool.poetry]
 name = "cove"
-version = "0.0.01"
+version = "0.0.1"
 description = ""
 authors = ["Harrison Chase <harrison@langchain.dev>"]
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
