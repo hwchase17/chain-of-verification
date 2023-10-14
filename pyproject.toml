@@ -1,3 +1,19 @@
+[tool.poetry]
+name = "cove"
+version = "0.0.01"
+description = ""
+authors = ["Harrison Chase <harrison@langchain.dev>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+langchain = "^0.0.313"
+openai = "^0.28.1"
+
 [tool.langserve]
-export_module = "main"
+export_module = "cove"
 export_attr = "chain"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
