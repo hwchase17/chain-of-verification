@@ -5,7 +5,7 @@ from langchain.prompts import PromptTemplate
 from langchain.schema.runnable import RunnablePassthrough, RunnableLambda
 
 # Import prompts
-from prompts import *
+from .prompts import *
 
 # Set up LLM to user
 llm = ChatOpenAI(temperature=0)
