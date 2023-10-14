@@ -1,0 +1,3 @@
+[tool.langserve]
+export_module = "main"
+export_attr = "chain"
